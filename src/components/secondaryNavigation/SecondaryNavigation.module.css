@@ -1,0 +1,11 @@
+
+.secondNav {
+align-items: center;
+  display: flex;  
+}
+
+.navItem {
+margin-right: 2rem;
+text-align: right;
+
+}

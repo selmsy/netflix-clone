@@ -5,25 +5,41 @@
    height: 68px;
    align-items: center;
    justify-content: space-between;
-    
+   position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 40px;
+    z-index: 1000;
 }
 
 .logo {
-height: auto;
-max-width: 92px;
-}
+    height: fit-content;
+    max-width: 92px;
+    }
 
-
+    
 .navigationList {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    
     align-items: center;
+
 }
 
 .navigationItem {
-    margin-left: lrem;
+    margin-left: 1rem;
     font-size: 0.8rem;
+
+}
+
+.mainNavigation {
+    display: flex;
+}
+
+.navigationItem a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
 }
