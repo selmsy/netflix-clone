@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './SocialLinks.module.css'
-import FacebookIcon from './assets/facebook.svg'
-import InstagramIcon from './assets/Instagram.svg'
-import TwitterIcon from './assets/twitter.svg'
-import YoutubeIcon from './assets/youtube.svg'
+import FacebookIcon from '../FacebookIcon'
+import InstagramIcon from '../InstagramIcon'
+import TwitterIcon from '../TwitterIcon'
+import YoutubeIcon from '../YoutubeIcon'
 
 const SocialLinks = () => {
   return (

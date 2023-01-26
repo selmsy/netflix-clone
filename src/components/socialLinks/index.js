@@ -1,2 +1,2 @@
-import SocialLinks from '../socialLinks'
+import SocialLinks from "./SocialLinks"
 export default SocialLinks

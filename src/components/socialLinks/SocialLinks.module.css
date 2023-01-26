@@ -7,3 +7,8 @@
 .iconLink {
     margin-right: 1rem;
 }
+
+.logo {
+    height: fit-content;
+    max-width: 92px;
+}

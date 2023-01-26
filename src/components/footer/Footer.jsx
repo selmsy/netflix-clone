@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className={styles.box}>
             <div className={styles.socialLinks}>
-              {/* <SocialLinks /> */} 
+              <SocialLinks /> 
                </div>
             <FooterLinks /> 
 
