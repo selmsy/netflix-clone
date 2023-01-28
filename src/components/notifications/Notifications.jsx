@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './Notifications.module.css'
-import logo from '../assets/bell.svg'
+import NotificationsIcon from './NotificationsIcon'
 const Notifications = () => {
   return (
     <div className={styles.notifs}>
-      <img className={styles.logo} src={logo} alt="logo" />
+      <NotificationsIcon/>
         </div>
   )
 }
